@@ -1,0 +1,58 @@
+.btn {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.btn-signup {
+  font-family: Raleway-SemiBold;
+  font-weight: bolder;
+  font-size: 18px;
+  color: white;
+  width: 40%;
+  letter-spacing: 1px;
+  line-height: 15px;
+  border: 0.5px solid rgba(3, 173, 252, 0.897);
+  border-radius: 40px;
+  background: rgba(3, 173, 252, 0.897);
+  transition: all 0.3s ease 0s;
+}
+
+.btn-signup:hover {
+  color: #FFF;
+  background: rgba(6, 118, 247, 0.75);
+  border: 0.5px solid rgba(6, 118, 247, 0.75);
+}
+
+.btn-login {
+  font-family: Raleway-SemiBold;
+  font-weight: bolder;
+  font-size: 18px;
+  color: rgba(3, 173, 252, 0.897);
+  width: 40%;
+  letter-spacing: 1px;
+  line-height: 15px;
+  border: 0.5px solid white;
+  border-radius: 40px;
+  background: white;
+  transition: all 0.3s ease 0s;
+}
+
+.btn-login:hover {
+  color: #FFF;
+  background: rgba(179, 196, 216, 0.75);
+  border: 0.5px solid rgba(179, 196, 216, 0.75);
+}
+
+.divider {
+  width: 5px;
+  height: auto;
+  display: inline-block;
+}
+
+#classesnav ul {
+  list-style: none;
+}
+
+#classesnav ul li {
+  padding: 10px 3px 10px 3px;
+}

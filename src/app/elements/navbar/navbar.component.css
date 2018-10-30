@@ -1,0 +1,12 @@
+ul li{
+  display: inline-block;
+}
+ul li a{
+  padding: 15px;
+  color: white;
+}
+.btn-group{
+  color: white;
+  padding: 15px;
+}
+
