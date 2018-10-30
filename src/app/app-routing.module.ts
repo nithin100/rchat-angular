@@ -5,11 +5,12 @@ import {HomeComponent} from './pages/home/home.component';
 import {SignInComponent} from './pages/sign-in/sign-in.component';
 import {RegisterComponent} from './pages/register/register.component';
 import {AboutComponent} from './pages/about/about.component';
+import {AuthGuardService} from '../app/services/auth-guard/auth-guard.service';
 
 const paths:Route[] = [
   {path:'signin',component:SignInComponent},
   {path:'register',component:RegisterComponent},
-  {path:'home',component:HomeComponent},
+  {path:'home',component:HomeComponent, canActivate:[AuthGuardService]},
   {path:'',redirectTo:'signin',pathMatch:'full'}
 ];
 
