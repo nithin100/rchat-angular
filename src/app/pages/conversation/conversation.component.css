@@ -1,0 +1,28 @@
+img {
+    float: left;
+    width: 20%;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin:auto;
+}
+
+.conversation span{
+    font-weight:bold ;
+}
+
+.unreadmsgcount{
+    vertical-align: middle;
+    color: chartreuse;
+}
+
+/* 
+.conversation img {
+    float: left;
+}
+.conversation span{
+    display: inline;
+}
+.conversation p{
+    vertical-align: middle;
+    text-align: right
+} */

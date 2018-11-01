@@ -13,6 +13,9 @@ import { SignInComponent } from './pages/sign-in/sign-in.component';
 import { RegisterComponent } from './pages/register/register.component';
 import { AppRoutingModule } from './app-routing.module';
 import {HttpinterceptorService} from '../app/utils/httpinterceptor/httpinterceptor.service';
+import { MessageslistComponent } from './pages/messageslist/messageslist.component';
+import { ConversationComponent } from './pages/conversation/conversation.component';
+import { ConversationlistComponent } from './pages/conversationlist/conversationlist.component';
 
 
 @NgModule({
@@ -23,7 +26,10 @@ import {HttpinterceptorService} from '../app/utils/httpinterceptor/httpintercept
     NavbarComponent,
     ContactComponent,
     SignInComponent,
-    RegisterComponent
+    RegisterComponent,
+    MessageslistComponent,
+    ConversationComponent,
+    ConversationlistComponent
   ],
   imports: [
     BrowserModule,

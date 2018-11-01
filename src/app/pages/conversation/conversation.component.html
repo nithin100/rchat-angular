@@ -1,0 +1,25 @@
+<!-- <div class="card">
+  <div class="row no-gutters">
+    <div class="col-auto">
+      <img src="../../../assets/logo.jpg" class="rounded" alt="">
+    </div>
+    <div class="col">
+      <div class="card-body">
+        <h5 class="card-title">{{conversation.secondParticipant}}</h5>
+        <p class="card-text">Status: online</p>
+      </div>
+    </div>
+  </div>
+</div> -->
+<div class="conversation">
+  <div>
+    <img src="../../../assets/logo.jpg" alt="">
+  </div>
+  <div>
+    <span>{{conversation.secondParticipant}}</span>
+    <br />
+    <span>{{conversation.lastMessageSentAt | date : "dd.MM.y"}}</span>
+    <span>2</span>
+  </div>
+  
+</div>
